@@ -60,10 +60,10 @@ docker compose up
 ```
 
 ## Where is the application running?
-- Saleor Core (API) - http://localhost:3009 or http://<external-ip>:3009
-- Saleor Dashboard - http://localhost:9003  or  http://<external-ip>:9003
-- Jaeger UI (APM) - http://localhost:16686  or  http://<external-ip>:16685
-- Mailpit (Test email interface) - http://localhost:8025 or http://<external-ip>:8025
+- Saleor Core (API) - http://localhost:3009 or "http://<external-ip>:3009"
+- Saleor Dashboard - http://localhost:9003  or  "http://<external-ip>:9003"
+- Jaeger UI (APM) - http://localhost:16686  or  "http://<external-ip>:16685"
+- Mailpit (Test email interface) - http://localhost:8025 or "http://<external-ip>:8025"
 
 # Troubleshooting
 
