@@ -1,28 +1,14 @@
-![Saleor Platform](https://user-images.githubusercontent.com/249912/71523206-4e45f800-28c8-11ea-84ba-345a9bfc998a.png)
-
 <div align="center">
-  <h1>Saleor Platform</h1>
+  <h1>Assignment 01 ISEC6000 TASK 2 Instructions</h1>
 </div>
 
 <div align="center">
-  <p>Run all Saleor services from one repository.</p>
+  <p>Run all Saleor services from this repository</p>
 </div>
-
-<div align="center">
-  <a href="https://saleor.io/">🏠 Website</a>
-  <span> • </span>
-  <a href="https://docs.saleor.io/docs/3.x/">📚 Docs</a>
-  <span> • </span>
-  <a href="https://saleor.io/blog/">📰 Blog</a>
-  <span> • </span>
-  <a href="https://twitter.com/getsaleor">🐦 Twitter</a>
-</div>
-
 <div align="center">
   <a href="https://githubbox.com/saleor/saleor-platform">🔎 Explore Code</a>
 </div>
-
-## About
+### About
 
 ### What is Saleor Platform?
 
@@ -33,29 +19,23 @@ Saleor Platform is the easiest way to start local development with all the major
 - Jaeger (APM)
 - The necessary databases, cache, etc.
 
-*Keep in mind this repository is for local development only and is not meant to be deployed in any production environment! If you're not a developer and just want to try out Saleor you can check our [live demo](https://demo.saleor.io/).*
-
 ## Requirements
 1. [Docker](https://docs.docker.com/install/)
 
 ## How to clone the repository?
-
 To clone the repository, run the following command
 
 ```
-git clone https://github.com/saleor/saleor-platform.git
+git clone https://github.com/bbilalmunir/isec6000-assignment1-task2
 ```
 
-## How to run it?
-
-1. We are using shared folders to enable live code reloading. Without this, Docker Compose will not start:
-    - Windows/MacOS: Add the cloned `saleor-platform` directory to Docker shared directories (Preferences -> Resources -> File sharing).
-    - Windows/MacOS: Make sure that in Docker preferences you have dedicated at least 5 GB of memory (Preferences -> Resources -> Advanced).
-    - Linux: No action is required, sharing is already enabled and memory for the Docker engine is not limited.
+### How to run it?
+1. Run your VM Machine, Google cloud instances or linux machine first.
+- Linux: No action is required, sharing is already enabled and memory for the Docker engine is not limited.
 
 2. Go to the cloned directory:
 ```shell
-cd saleor-platform
+cd isec6000-assignment1-task2
 ```
 
 3. Build the application:
@@ -80,10 +60,10 @@ docker compose up
 ```
 
 ## Where is the application running?
-- Saleor Core (API) - http://localhost:8000
-- Saleor Dashboard - http://localhost:9000
-- Jaeger UI (APM) - http://localhost:16686
-- Mailpit (Test email interface) - http://localhost:8025
+- Saleor Core (API) - http://localhost:3009 or http://<external-ip>:3009
+- Saleor Dashboard - http://localhost:9003  or  http://<external-ip>:9003
+- Jaeger UI (APM) - http://localhost:16686  or  http://<external-ip>:16685
+- Mailpit (Test email interface) - http://localhost:8025 or http://<external-ip>:8025
 
 # Troubleshooting
 
